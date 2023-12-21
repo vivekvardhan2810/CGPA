@@ -4,3 +4,4 @@
  <P><b>Steps That I Used for Calculating My CGPA:</b></P>
 <P>1. I Added a new column for 'Term Credits' if not already present, representing the total credits for each term.</P>
 <p>2. Calculate the 'Term Grade Points' for each term by multiplying 'GPA' with 'Term Credits'.</p>
+<p>3. Sum the 'Term Grade Points' and 'Term Credits' columns for all terms.</p>
