@@ -8,3 +8,5 @@
 <p>Calculate the CGPA using the formula: CGPA = Total Term Grade Points / Total Term Credits.</p>
 
 <p>In <b>Conclusion</b>, the provided Python code demonstrates how to calculate the Cumulative Grade Point Average (CGPA) based on a given dataset using the pandas library. The script assumes the presence of columns such as 'GPA' and 'Term Credits' in the dataset, and it follows the standard steps for CGPA calculation, including the multiplication of GPA by term credits and the summation of these values across all terms. The resulting CGPA is then obtained by dividing the total term grade points by the total term credits.</p>
+
+<p> By this we can calculate the CGPA</P>
