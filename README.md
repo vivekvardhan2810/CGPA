@@ -1,12 +1,60 @@
-# CGPA
-<p>I had Created a Dataset based upon my Previous academic performances using Credits and GPA Of Each Semester</p>
-<p>To calculate the Cumulative Grade Point Average (CGPA), you typically need the GPA for each semester or academic term. If your dataset includes information for multiple terms or semesters, you can calculate the CGPA by averaging the GPAs across all terms.</p>
- <P><b>Steps That I Used for Calculating My CGPA:</b></P>
-<P>1. I Added a new column for 'Term Credits' if not already present, representing the total credits for each term.</P>
-<p>2. Calculate the 'Term Grade Points' for each term by multiplying 'GPA' with 'Term Credits'.</p>
-<p>3. Sum the 'Term Grade Points' and 'Term Credits' columns for all terms.</p>
-<p>Calculate the CGPA using the formula: CGPA = Total Term Grade Points / Total Term Credits.</p>
+# CGPA Dataset Analysis
 
-<p>In <b>Conclusion</b>, the provided Python code demonstrates how to calculate the Cumulative Grade Point Average (CGPA) based on a given dataset using the pandas library. The script assumes the presence of columns such as 'GPA' and 'Term Credits' in the dataset, and it follows the standard steps for CGPA calculation, including the multiplication of GPA by term credits and the summation of these values across all terms. The resulting CGPA is then obtained by dividing the total term grade points by the total term credits.</p>
-       
-<p> By this we can calculate the CGPA. </P>
+## Project Description
+This repository contains a dataset based on the academic performances of the author. The dataset includes information on credits and GPA for each semester, allowing for analysis and visualization of academic progress over time.
+
+## Features
+- Dataset creation based on academic performance data
+- Analysis of GPA trends over multiple semesters
+- Visualization of credit vs. GPA distribution
+- Calculation of cumulative GPA
+
+## Technologies Used
+- Jupyter Notebook
+- Python
+
+## Prerequisites
+- Jupyter Notebook installed on your machine
+- Basic understanding of Python and data analysis concepts
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/CGPA.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd CGPA
+   ```
+
+3. Open the Jupyter Notebook file to start analyzing the dataset.
+
+## Configuration
+No specific configuration is required for this project.
+
+## Usage
+To analyze the dataset and visualize academic performance trends, open the Jupyter Notebook file and execute the cells sequentially. Here is a sample code snippet for loading the dataset:
+
+```python
+import pandas as pd
+
+# Load the dataset into a Pandas DataFrame
+df = pd.read_csv('cgpa_dataset.csv')
+print(df.head())
+```
+
+## Contributing
+- Fork the repository
+- Make your contribution
+- Submit a pull request
+
+## License
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact Information
+For any questions or inquiries, please contact the maintainers:
+- Email: [vivekvardhan43862@gmail.com](vivekvardhan43862@gmail.com)
+
+## Acknowledgments
+- This dataset analysis was inspired by the need to track academic progress efficiently.
